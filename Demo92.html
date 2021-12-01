@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*li{*/
+        /*    color:red;*/
+     /*   !*}*!*/
+     /*   .red{*/
+     /*       color:red;*/
+     /*   }*/
+     /*!*后代选择器*!*/
+     /*   ol a{*/
+     /*       color: blue;*/
+     /*   }*/
+
+        /*.list li a{*/
+        /*    color:brown;*/
+        /*}*/
+        .cat ul>li>a{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+       <ul>
+           <li>咬人猫</li>
+           <li>咬人猫</li>
+           <li>咬人猫</li>
+       </ul>
+   <ol class="list">
+       <li class="red">兔总裁</li>
+       <li class="red">兔总裁</li>
+       <li >
+           <a href="#">兔总裁</a>
+       </li>
+   </ol>
+<div class="cat"><a href=""></a>
+    <ul>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<div class="cat"><a href="#"></a>
+    <ul>
+        <li><a href="#">cat</a></li>
+        <li><a href="#">cat</a></li>
+    </ul>
+</div>
+   <div>apple</div>
+<h3>banana</h3>
+<ul>
+    <li> chengzi</li>
+    <li>huolongguo</li>
+</ul>
+<a href="http://www.sogou.com">搜狗</a>
+
+<input type="button" value="按钮">
+<div>
+<!--    <input type="text">-->
+<!--    <input type="text">-->
+<!--    <input type="text">-->
+<!--    <input type="text">-->
+
+    <span>
+        这是一段话
+           这是一段话
+           这是一段话
+           这是一段话
+        这是一段话
+           这是一段话
+
+
+    </span>
+</div>
+<style>
+     div{
+         font-size: 50px;
+         /*透明度为1表示不透明*/
+         /*透明度为0表示全透明*/
+         background-color: rgba(255,0,0,0.5);
+     }
+     span{
+         font-size: 50px;
+         color:rgb(64,64,64);
+     }
+
+
+    body{
+        font-family:'微软雅黑';
+    }
+
+
+    input:focus{
+        color:red;
+    }
+    input {
+        color: red;
+    }
+    input :hover{
+        color:green;
+    }
+
+    a {
+        color: black;
+        font-size: 30px;
+    }
+    a:link{
+        color:black;
+    }
+    a:visited{
+        color: green;
+    }
+    a:hover{
+        color: red;
+    }
+    a:active{
+        color:blue;
+    }
+    把苹果和香蕉都设为40px
+        div,h3,ul>li{
+            font-size:40px;
+        }
+</style>
+</body>
+</html>
